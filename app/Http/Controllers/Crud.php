@@ -32,12 +32,7 @@ class Crud extends Controller
        return view ('Crud.altaUsuario');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function store(Request $request)
     {
       $user=DB::table('poet')
@@ -59,16 +54,10 @@ class Crud extends Controller
        $user= DB::table('poet')
            -> where('poet_code','=',$id)
            -> first();
-        return view('crud.altaUsuario',['poet'=>$user]);
+        return view('crud/altaUsuario',['poet'=>$user]);
 
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
         //
@@ -79,7 +68,6 @@ class Crud extends Controller
         $user=DB::table('poet')
             ->where('poet_code','=', $request->input('id'))
             ->update([
-                'poet_code'=> $request->input('id'),
                 'first_name'=> $request->input('first'),
                 'surname'=> $request->input('surname'),
                 'adress'=> $request->input('adress'),

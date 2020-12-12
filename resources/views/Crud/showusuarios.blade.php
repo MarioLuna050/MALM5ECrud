@@ -29,14 +29,15 @@
     <tbody>
     @foreach($poet as $user)
     <tr>
+
         <td>{{$user->poet_code}}</td>
         <td>{{$user->first_name}}</td>
         <td>{{$user->surname}}</td>
         <td>{{$user->adress}}</td>
         <td>{{$user->postcode}}</td>
         <td>{{$user->telephone_number}}</td>
-        <td><a href="{{action('Crud@show',['id'=>$user-> poet_code])}}">Actualizar</a></td>
-        <td><a href="{{action('Crud@destroy',['id'=>$user-> poet_code])}}">Borrar</a></td>
+        <td><a href="{{action('Crud@show',['id'=>$user->poet_code])}}">Actualizar</a></td>
+        <td><a href="{{action('Crud@destroy',['id'=>$user->poet_code])}}">Borrar</a></td>
     </tr>
     @endforeach
 

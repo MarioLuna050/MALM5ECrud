@@ -13,26 +13,30 @@
         @stop
 </head>
 <body>
-        @if(isset($user) and is_object($user))
+
+
+        @if(isset($user)and is_object($user))
+            "Modificación del poeta"
             @php
-            $title='Modificación del poeta';
             $boton ='Actualizar';
-            $id = $user-> poet_code;
             $first = $user-> first_name;
             $surname= $user-> surname;
             $adress = $user->adress;
             $postcode = $user-> postcode;
             $telephone = $user->telephone_number;
+            $id = $user-> poet_code;
             @endphp
         @else
+           Alta de poeta
             @php
-            $title= 'Alta de poeta';
             $boton=  'Dar de alta';
+
             $first='';
             $surname='';
             $adress ='';
             $postcode ='';
             $telephone ='';
+            $id ='';
 
             @endphp
         @endif
