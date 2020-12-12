@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/database/migrations/2020_11_26_162155_create_usuarios.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/database/migrations/2020_12_07_012007_poet__circle.php" dialect="GenericSQL" />
+  </component>
+</project>
