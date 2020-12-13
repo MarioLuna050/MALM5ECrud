@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04de17cb-c593-4da3-a73f-e587267843b0" name="Default Changelist" comment="" />
+    <list default="true" id="04de17cb-c593-4da3-a73f-e587267843b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Crud.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Crud.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -120,6 +126,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kpntr5JfKPcJRSpqr7insmWa4Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -164,7 +171,8 @@
       <workItem from="1607303040522" duration="6870000" />
       <workItem from="1607314722022" duration="585000" />
       <workItem from="1607615566974" duration="7106000" />
-      <workItem from="1607734924908" duration="18753000" />
+      <workItem from="1607734924908" duration="18933000" />
+      <workItem from="1607840754984" duration="542000" />
     </task>
     <servers />
   </component>

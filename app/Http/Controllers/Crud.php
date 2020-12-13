@@ -37,7 +37,6 @@ class Crud extends Controller
     {
       $user=DB::table('poet')
           ->insert([
-              'poet_code'=> $request->input('code'),
               'first_name'=> $request->input('first'),
               'surname'=> $request->input('surname'),
               'adress'=> $request->input('adress'),
@@ -54,7 +53,7 @@ class Crud extends Controller
        $user= DB::table('poet')
            -> where('poet_code','=',$id)
            -> first();
-        return view('crud/altaUsuario',['poet'=>$user]);
+        return view('Crud.altaUsuario',['user'=>$user]);
 
     }
 
